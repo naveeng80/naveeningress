@@ -13,7 +13,7 @@ appname: naveeningress
 myimage:
   myfullreponame: ""
   Whentopullimage: Always
-  containerandtargetPort: 3000
+  containerandtargetPort: 80
   appcontainername: naveeningress-container
 
 # This is for setting up a service more information can be found here: https://kubernetes.io/docs/concepts/services-networking/service/

@@ -23,7 +23,7 @@ WORKDIR /app
 COPY --from=build /app /app
 
 # Expose the port your app will use
-EXPOSE 3000
+EXPOSE 80
 
 # Set the default command to run your app
 CMD [ "node", "src/index.js" ]
