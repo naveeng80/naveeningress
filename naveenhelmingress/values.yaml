@@ -14,12 +14,12 @@ myimage:
   myfullreponame: ""
   Whentopullimage: Always
   containerandtargetPort: 80
-  appcontainername: naveeningress-container
+  appcontainername: naveeningress
 
 # This is for setting up a service more information can be found here: https://kubernetes.io/docs/concepts/services-networking/service/
 myservice:
   port: 80
-  servicename: naveeningress-service
+  servicename: naveeningress
   myprotocol: TCP
 
 myscret:
