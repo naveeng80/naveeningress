@@ -10,4 +10,3 @@ spec:
     - protocol: {{ .Values.myservice.myprotocol }}
       port: {{ .Values.myservice.port }}
       targetPort: {{ .Values.myimage.containerandtargetPort }}
-  type: {{ .Values.myservice.type }}

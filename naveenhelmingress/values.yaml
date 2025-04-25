@@ -18,7 +18,6 @@ myimage:
 
 # This is for setting up a service more information can be found here: https://kubernetes.io/docs/concepts/services-networking/service/
 myservice:
-  type: ClusterIP
   port: 80
   servicename: naveeningress-service
   myprotocol: TCP
